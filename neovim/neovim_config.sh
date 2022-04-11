@@ -22,6 +22,8 @@ cp settings.vim ~/.config/nvim/general/
 
 echo "source $HOME/.config/nvim/general/settings.vim" >> ~/.config/nvim/init.vim
 
+source "$MYVIMRC"
+
 #Install Mappings
 mkdir ~/.config/nvim/keys
 
