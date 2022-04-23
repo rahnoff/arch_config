@@ -1,9 +1,9 @@
 #!/bin/bash
 
-yay -S python-ueberzug-git
+#yay -S python-ueberzug-git
 mkdir ~/.config/ranger
-mkdir ~/.config/ranger/plugins
-git clone https://github.com/alexanderjeurlssen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+#mkdir ~/.config/ranger/plugins
+#git clone https://github.com/alexanderjeurlssen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 cp rc.conf ~/.config/ranger/
 sed -i '12 i \ \ \ \ \" Ranger' ~/.config/nvim/vim-plug/plugins.vim
 sed -i "13 i \ \ \ \ Plug 'kevinhwang91/rnvimr', { 'do': 'make sync' }" ~/.config/nvim/vim-plug/plugins.vim
