@@ -1,0 +1,20 @@
+essential, xorg-server, X server
+essential, xorg-xinit, Display server boot
+essential, xorg-xrdb, Xresources management
+essential, man, Manual
+essential, man-pages, Manual pages
+network, openssh, Remote login tool for SSH protocol
+network, networkmanager, Network manager
+tools, xorg-xrandr, Display resolution
+tools, xsel, Manipulate the X selection
+tools, htop, Interactive process viewer
+git, git, Version control system
+git, diff-so-fancy, Better alternative to git diff
+i3, i3-wm, i3 window tile manager
+i3, i3status, i3 status bar
+i3, dmenu, Dynamic menu for X
+i3, feh, X11 image viewer
+compositor, picom, Compositor for X11
+neovim, neovim, Text editor
+urxvt, rxvt-unicode, Terminal URxvt
+firefox, firefox, Browser
